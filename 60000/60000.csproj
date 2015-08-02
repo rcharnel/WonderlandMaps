@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FBAE300-9786-4703-8AB3-D9D2ABF89AE8}</ProjectGuid>
+    <ProjectGuid>{C8E6C312-EB74-4C1B-A015-2AB53863E0A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_11016</RootNamespace>
-    <AssemblyName>11016</AssemblyName>
+    <RootNamespace>_60000</RootNamespace>
+    <AssemblyName>60000</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,12 +44,6 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\WarpLocations\" />
-    <Folder Include="Interactable Objects\MiningArea\" />
-    <Folder Include="Interactable Objects\Npcs\" />
-    <Folder Include="Interactable Objects\Portals\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
