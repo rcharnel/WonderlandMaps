@@ -1,13 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11016", "11016\11016.csproj", "{3FBAE300-9786-4703-8AB3-D9D2ABF89AE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "60000", "60000\60000.csproj", "{C8E6C312-EB74-4C1B-A015-2AB53863E0A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12005", "12005\12005.csproj", "{246CBAEF-57A2-499A-98ED-F43468091ED5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLS", "DLLS", "{AFFECC94-4666-4DE6-8569-2876E8E7CD7E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\log4net.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\log4net.dll
+		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\MySql.Data.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\MySql.Data.dll
+		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\PhoenixData.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\PhoenixData.dll
+		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\RCLibrary.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\RCLibrary.dll
+		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\System.Data.SQLite.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\System.Data.SQLite.dll
+		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\wlo.pserver.core.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\wlo.pserver.core.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -37,8 +37,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="wlo.pserver.core">
-      <HintPath>..\..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\wlo.pserver.core.dll</HintPath>
+    <Reference Include="wlo.pserver.core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLLS\wlo.pserver.core.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -50,6 +51,14 @@
     <Folder Include="Interactable Objects\MiningArea\" />
     <Folder Include="Interactable Objects\Npcs\" />
     <Folder Include="Interactable Objects\Portals\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLLS\log4net.dll" />
+    <Content Include="DLLS\MySql.Data.dll" />
+    <Content Include="DLLS\PhoenixData.dll" />
+    <Content Include="DLLS\RCLibrary.dll" />
+    <Content Include="DLLS\System.Data.SQLite.dll" />
+    <Content Include="DLLS\wlo.pserver.core.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

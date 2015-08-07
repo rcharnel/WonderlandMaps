@@ -38,10 +38,22 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="wlo.pserver.core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\60000\DLLS\wlo.pserver.core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLLS\log4net.dll" />
+    <Content Include="DLLS\MySql.Data.dll" />
+    <Content Include="DLLS\PhoenixData.dll" />
+    <Content Include="DLLS\RCLibrary.dll" />
+    <Content Include="DLLS\System.Data.SQLite.dll" />
+    <Content Include="DLLS\wlo.pserver.core.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
