@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11016", "11016\11016.csproj", "{3FBAE300-9786-4703-8AB3-D9D2ABF89AE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "60000", "60000\60000.csproj", "{C8E6C312-EB74-4C1B-A015-2AB53863E0A0}"
@@ -9,13 +11,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12005", "12005\12005.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLS", "DLLS", "{AFFECC94-4666-4DE6-8569-2876E8E7CD7E}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\log4net.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\log4net.dll
-		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\MySql.Data.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\MySql.Data.dll
-		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\PhoenixData.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\PhoenixData.dll
-		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\RCLibrary.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\RCLibrary.dll
-		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\System.Data.SQLite.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\System.Data.SQLite.dll
-		..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\wlo.pserver.core.dll = ..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\wlo.pserver.core.dll
+		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\log4net.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\log4net.dll
+		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\MySql.Data.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\MySql.Data.dll
+		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\PhoenixData.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\PhoenixData.dll
+		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\RCLibrary.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\RCLibrary.dll
+		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\System.Data.SQLite.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\System.Data.SQLite.dll
+		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\wlo.pserver.core.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\wlo.pserver.core.dll
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13051", "ClassLibrary1\13051.csproj", "{6962198C-F437-459D-949A-0CEAB6B96F77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary2", "ClassLibrary2\ClassLibrary2.csproj", "{DF343EDF-CB83-4A06-977D-36DB80032285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13050", "13050\13050.csproj", "{0558706C-17E5-432F-A7FF-CA52BF7F717C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +43,18 @@ Global
 		{246CBAEF-57A2-499A-98ED-F43468091ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{246CBAEF-57A2-499A-98ED-F43468091ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{246CBAEF-57A2-499A-98ED-F43468091ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6962198C-F437-459D-949A-0CEAB6B96F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6962198C-F437-459D-949A-0CEAB6B96F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6962198C-F437-459D-949A-0CEAB6B96F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6962198C-F437-459D-949A-0CEAB6B96F77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF343EDF-CB83-4A06-977D-36DB80032285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF343EDF-CB83-4A06-977D-36DB80032285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF343EDF-CB83-4A06-977D-36DB80032285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF343EDF-CB83-4A06-977D-36DB80032285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0558706C-17E5-432F-A7FF-CA52BF7F717C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0558706C-17E5-432F-A7FF-CA52BF7F717C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0558706C-17E5-432F-A7FF-CA52BF7F717C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0558706C-17E5-432F-A7FF-CA52BF7F717C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

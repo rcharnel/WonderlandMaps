@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 using Game;
 using Plugin;
 
-
-namespace _12005
+namespace _13050
 {
-    public class map12005:GameMap
+    public class map13050:GameMap
     {
-
-
-        public map12005(object host, object src)
+        public map13050(object host, object src)
             : base((PluginHost)host, (System.IO.FileInfo)src)
         {
 
@@ -23,7 +20,7 @@ namespace _12005
         {
             get
             {
-                return 12005;
+                return base.MapID;
             }
 
             set
@@ -48,11 +45,8 @@ namespace _12005
             }
         }
 
-
         public void Test()
         {
-
-
 
         }
     }

@@ -7,23 +7,22 @@ using Game;
 using Plugin;
 
 
-namespace _12005
+namespace _13051
 {
-    public class map12005:GameMap
+    public class map13051:GameMap
     {
 
-
-        public map12005(object host, object src)
+        public map13051(object host, object src)
             : base((PluginHost)host, (System.IO.FileInfo)src)
-        {
+    {
 
-        }
+    }
 
         public override uint MapID
         {
             get
             {
-                return 12005;
+                return base.MapID;
             }
 
             set
@@ -48,12 +47,11 @@ namespace _12005
             }
         }
 
-
         public void Test()
-        {
+    {
 
 
+    }
 
-        }
     }
 }
