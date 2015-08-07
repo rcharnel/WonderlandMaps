@@ -7,40 +7,39 @@ using Game;
 using Plugin;
 
 
-namespace _11016
+namespace _12005
 {
-    public class map11016:GameMap
+    public class map12005:GameMap
     {
-        
 
-        public map11016(object host, object src)
+
+        public map12005(object host, object src)
             : base((PluginHost)host, (System.IO.FileInfo)src)
         {
 
         }
-        
-        public override uint MapID
+
+        public override uint MapID;
         {
-            get
+           get
             {
-                return 11016;
+                return 12005;
             }
         }
 
-        public override string MapName
+        public override string MapName;
         {
             get
             {
-                return "Cruise Ship";
+                return "Kelan Cave 1F";
             }
         }
 
-        public void Test()
+       public void Test()
         {
 
-            
+
 
         }
-
     }
 }
