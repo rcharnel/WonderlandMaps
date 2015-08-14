@@ -36,7 +36,7 @@ namespace _12005
         {
             get
             {
-                return base.MapName;
+                return "Cabin";
             }
         }
 

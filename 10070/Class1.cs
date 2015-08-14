@@ -33,7 +33,7 @@ namespace _10070
         {
             get
             {
-                return base.MapName;
+                return "Hezrou Island";
             }
         }
 

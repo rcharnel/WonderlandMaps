@@ -34,7 +34,7 @@ namespace _10000
         {
             get
             {
-                return base.MapName;
+                return "Residence";
             }
         }
 

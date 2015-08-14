@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Game;
 using Plugin;
 
-namespace _10000
+namespace _10001
 {
     public class map10001 : GameMap
 
@@ -34,7 +34,7 @@ namespace _10000
         {
             get
             {
-                return base.MapName;
+                return "Deck";
             }
         }
 

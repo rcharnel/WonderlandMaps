@@ -33,7 +33,7 @@ namespace _13050
         {
             get
             {
-                return base.MapName;
+                return "Training Island";
             }
         }
 

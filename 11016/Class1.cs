@@ -31,7 +31,7 @@ namespace _11016
         {
             get
             {
-                return "Cruise Ship";
+                return "Beach";
             }
         }
 
