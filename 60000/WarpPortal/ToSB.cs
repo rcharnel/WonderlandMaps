@@ -12,9 +12,16 @@ namespace _60000.WarpPortal
     {
         public ToSB()
         {
-            this.clickID = 1;
             this.DstID = 1;
             accessBy = AccessFlags.Any;
+        }
+
+        public override ushort CickID
+        {
+            get
+            {
+                return 1;
+            }
         }
     }
 }
