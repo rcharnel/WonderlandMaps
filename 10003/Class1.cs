@@ -9,7 +9,6 @@ using Plugin;
 namespace _10003
 {
     public class map10003 : GameMap
-
     {
         public map10003(object host, object src)
              : base((PluginHost)host, (System.IO.FileInfo)src)
@@ -21,7 +20,7 @@ namespace _10003
         {
             get
             {
-                return base.MapID;
+                return 10003;
             }
 
             set
@@ -34,10 +33,10 @@ namespace _10003
         {
             get
             {
-                return base.MapName;
+                return "Newbie Island";
             }
         }
-
+        
         public override MapType Type
         {
             get

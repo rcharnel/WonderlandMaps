@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Game;
 using Plugin;
 
-namespace _10000
+namespace _10002
 {
     public class map10002 : GameMap
 
@@ -21,7 +21,7 @@ namespace _10000
         {
             get
             {
-                return base.MapID;
+                return 10002;
             }
 
             set
@@ -34,7 +34,7 @@ namespace _10000
         {
             get
             {
-                return base.MapName;
+                return "Cabin";
             }
         }
 

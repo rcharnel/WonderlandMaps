@@ -21,7 +21,7 @@ namespace _10004
         {
             get
             {
-                return base.MapID;
+                return 10004;
             }
 
             set
@@ -34,7 +34,7 @@ namespace _10004
         {
             get
             {
-                return base.MapName;
+                return "Prison";
             }
         }
 

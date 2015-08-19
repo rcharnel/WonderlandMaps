@@ -34,7 +34,7 @@ namespace _10005
         {
             get
             {
-                return "Newbie Island";
+                return "Test";
             }
         }
 

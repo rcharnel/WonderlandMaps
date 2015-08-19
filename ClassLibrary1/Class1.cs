@@ -22,7 +22,7 @@ namespace _13051
         {
             get
             {
-                return base.MapID;
+                return 13051;
             }
 
             set
@@ -35,7 +35,7 @@ namespace _13051
         {
             get
             {
-                return base.MapName;
+                return "Beach Area";
             }
         }
 
