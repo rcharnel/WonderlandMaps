@@ -38,6 +38,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="wlo.pserver.core">
+      <HintPath>..\DLLS\wlo.pserver.core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
@@ -51,12 +54,6 @@
     <Content Include="DLLS\PhoenixData.dll" />
     <Content Include="DLLS\RCLibrary.dll" />
     <Content Include="DLLS\System.Data.SQLite.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Documents\Projects\Wonderland-Private-Server\wlo.pserver.core\wlo.pserver.core.csproj">
-      <Project>{d549af04-f847-4474-819f-64bb1c09d90d}</Project>
-      <Name>wlo.pserver.core</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
