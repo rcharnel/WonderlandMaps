@@ -1,23 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11016", "11016\11016.csproj", "{3FBAE300-9786-4703-8AB3-D9D2ABF89AE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "60000", "60000\60000.csproj", "{C8E6C312-EB74-4C1B-A015-2AB53863E0A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12005", "12005\12005.csproj", "{246CBAEF-57A2-499A-98ED-F43468091ED5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLS", "DLLS", "{AFFECC94-4666-4DE6-8569-2876E8E7CD7E}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\log4net.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\log4net.dll
-		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\MySql.Data.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\MySql.Data.dll
-		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\PhoenixData.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\PhoenixData.dll
-		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\RCLibrary.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\RCLibrary.dll
-		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\System.Data.SQLite.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\System.Data.SQLite.dll
-		..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\wlo.pserver.core.dll = ..\..\Projects\Wonderland-Private-Server\wlo.pserver.core\bin\Debug\wlo.pserver.core.dll
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13051", "ClassLibrary1\13051.csproj", "{6962198C-F437-459D-949A-0CEAB6B96F77}"
 EndProject
@@ -108,6 +96,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10095", "10089\10095.csproj", "{08BD37D3-6238-43B6-9B21-A364CAC7ECD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10096", "10090\10096.csproj", "{340D6E7F-8197-4DA8-A4F1-42C6E5C0F543}"
+EndProject
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
