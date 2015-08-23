@@ -97,7 +97,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10095", "10089\10095.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10096", "10090\10096.csproj", "{340D6E7F-8197-4DA8-A4F1-42C6E5C0F543}"
 EndProject
-		.nuget\NuGet.targets = .nuget\NuGet.targets
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEF51982-EFDF-4423-9A1D-3876F1452B5E}"
+	ProjectSection(SolutionItems) = preProject
+		DLLS\log4net.dll = DLLS\log4net.dll
+		DLLS\MySql.Data.dll = DLLS\MySql.Data.dll
+		DLLS\PhoenixData.dll = DLLS\PhoenixData.dll
+		DLLS\RCLibrary.dll = DLLS\RCLibrary.dll
+		DLLS\System.Data.SQLite.dll = DLLS\System.Data.SQLite.dll
+		DLLS\wlo.pserver.core.dll = DLLS\wlo.pserver.core.dll
 	EndProjectSection
 EndProject
 Global

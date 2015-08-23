@@ -55,6 +55,10 @@
     <Content Include="DLLS\System.Data.SQLite.dll" />
     <Content Include="DLLS\wlo.pserver.core.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WarpData\" />
+    <Folder Include="WarpPortal\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
