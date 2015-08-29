@@ -46,14 +46,13 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Npcs\Monkey.cs" />
-    <Compile Include="Portals\ToNI_Top.cs" />
+    <Compile Include="WarpPortal\ToNI_Top.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Items\" />
     <Folder Include="MiningArea\" />
     <Folder Include="WarpData\" />
-    <Folder Include="WarpPortal\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DLLS\log4net.dll" />
